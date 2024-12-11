@@ -1,0 +1,46 @@
+/* CSS custom style sheet style sheet */
+
+body {
+
+  background-color: #ffaaf2;
+
+}
+
+.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: auto;
+  
+
+}
+
+.site-map-divider {
+  background-color: purple;
+  width: 3px;
+  height: 100%;
+}
+
+.site-map {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 80%;
+  margin: 0 10%;
+  box-sizing: border-box;
+  border: purple solid 2px;
+
+  & a {
+    font-size: 2.5vw;
+    font-weight: 700;
+
+    color: #000000;
+    font-style: none;
+
+    width: 31%;
+
+    text-align: center;
+    text-decoration: none;
+  }
+}
