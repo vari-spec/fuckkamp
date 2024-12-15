@@ -20,12 +20,65 @@ body {
 
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
 .heading {
-  font-size:8vw;
-  font-family: "Cooper Std Black";
   text-align: center;
   text-decoration: none;
-
 }
 
 .subheading {
@@ -34,15 +87,6 @@ body {
   font-family: "Cooper Std Black";
   text-align: center;
   text-decoration: none;
-
-}
-
-
-.paragraph {
-  font-size:2vw;
-  font-family: "Comic Sans MS", arial sans-serif;
-  margin: 0 10%;
-
 
 }
 
@@ -85,21 +129,71 @@ body {
   display: flex;
   justify-content: space-between;
   height: fit-content;
-  width: 80%;
-  margin: 0 10%;
+  width: 90%;
+  margin: 0 5%;
   box-sizing: border-box;
   border: purple solid 3px;
 }
 
+.site-map h3 {
+  margin: 0;
+}
+
 .site-map a {
-  font-size: 2vw;
   font-weight: 700;
 
   color: #000000;
   padding: 10px 0;
 
-  width: 23%;
+  width: 19%;
 
   text-align: center;
   text-decoration: none;
+}
+
+.event {
+  padding: 5px;
+  /*border: darkorchid dashed 5px;*/
+  animation-name: flashing-border;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border: darkorchid dashed 5px;
+}
+
+@keyframes flashing-border {
+  50%  {  border: green dashed 5px;}
+}
+
+.event-heading {
+}
+
+.event-time {
+}
+
+.time-question {
+  color: deeppink;
+  margin-right: 20px;
+}
+
+.time-info {
+  display: flex;
+
+}
+
+.event-description {
+}
+
+.day-divider {
+  width: 90%;
+  height: 5px;
+  margin: 10px auto;
+  background-color: purple;
+}
+
+ul {
+  list-style-image: url('./fonts/dildo.png');
+}
+
+ul li {
+  margin: 15px 0;
 }
