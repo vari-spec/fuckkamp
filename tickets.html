@@ -3,15 +3,18 @@
 <html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="style.css">
 
 <head>
   <title> fuckkamp.ticket </title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-<  <div class="site-map">
+ <div class="site-map">
   <a href="./"><h2>Home</h2></a>
 
   <div class="site-map-divider"></div>
@@ -26,9 +29,32 @@
   <div class="site-map-divider"></div>
   <a href="./expressions.html"><h2>Your Ideas</h2></a>
 
-</div>
+ </div>
 
 <h1 class="heading">Ticket Info</h1>
+
+ <div id="quotesCarousel" class="carousel slide" data-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+         <div class="quote-wrapper">
+             <p class="quote-content">Fuckkamp is a state of mind, a state of being, and a state of enlightenment</p>
+             <p class="quote-source">- The Dali Lama, Nepal</p>
+         </div>
+     </div>
+     <div class="carousel-item">
+         <div class="quote-wrapper">
+             <p class="quote-content">Let&apos;s take advantage of the last days of our decadent society</p>
+             <p class="quote-source">- Cass Collins, 82</p>
+         </div>
+     </div>
+     <div class="carousel-item">
+         <div class="quote-wrapper">
+             <p class="quote-content">The urge to destroy is also a creative urge.</p>
+             <p class="quote-source">- Mikhail Bakunin, Nurse</p>
+         </div>
+     </div>
+   </div>
+ </div>`
 
 <h2 class="subheading">Why i gotta pay? Whatdya spend $$$ on? </h2>
 
@@ -42,8 +68,4 @@ Misc     - $ ???
 </div>
 
 </body>
-
-
-
-<script src="./scripts/carousel.js"></script>
 </html>
