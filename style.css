@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Cooper Std Black";
+  /*font-family: "Cooper Std Black";*/
   background-color: #ffaaf2;
   display: block;
   margin: 8px;
@@ -83,11 +83,14 @@ body {
 }
 
 .subheading {
-
-  font-size:3vw;
+/*   font-size:3vw; */
   font-family: "Cooper Std Black";
   text-align: center;
   text-decoration: none;
+}
+
+.paragraph {
+  font-family: "Comic Sans MS";
 
 }
 
