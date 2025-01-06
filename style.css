@@ -170,12 +170,16 @@ body {
 }
 
 .event-heading {
+  font-family: "Cooper Std Black";
+
 }
 
 .event-time {
+  font-family: "Comic Sans MS";
 }
 
 .time-question {
+  font-family: "Comic Sans MS";
   color: deeppink;
   margin-right: 20px;
 }
@@ -186,6 +190,7 @@ body {
 }
 
 .event-description {
+    font-family: "Comic Sans MS";
 }
 
 .day-divider {
