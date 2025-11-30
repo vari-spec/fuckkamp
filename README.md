@@ -1,4 +1,7 @@
 TODO:
 
-- add survey monkey EOI link to expression.html
-- add survey monkey link to whatbring.html in the "who are we" section
+- add google form link expression.html
+- update theme:
+-   colours
+-   fonts
+-   sexy icons
