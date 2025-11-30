@@ -239,7 +239,7 @@ ul li {
 }
 
 .quote-wrapper {
-  background-color: deeppink;
+  background-color: violet;
   padding: 10px;
   display: flex ;
   flex-direction: column;
