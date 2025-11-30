@@ -1,6 +1,11 @@
 /* CSS custom style sheet style sheet */
 
 
+@font-face {
+  font-family: "Operation Napalm";
+  src: url("./fonts/OperationNapalm.ttf");
+
+}
 
 @font-face {
   font-family: "Cooper Std Black";
@@ -37,7 +42,7 @@ body {
 
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   h2 {
@@ -51,7 +56,7 @@ body {
 
 @media screen and (min-width: 900px) {
   h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   h2 {
@@ -65,7 +70,7 @@ body {
 
 @media screen and (min-width: 1201px) {
   h1 {
-    font-size: 32px;
+    font-size: 42px;
   }
 
   h2 {
@@ -78,14 +83,14 @@ body {
 }
 
 .heading {
-  font-family: "Cooper Std Black";
+  font-family: "Operation Napalm";
   text-align: center;
   text-decoration: none;
 }
 
 .subheading {
 /*   font-size:3vw; */
-  font-family: "Cooper Std Black";
+  font-family: "Operation Napalm";
   text-align: center;
   text-decoration: none;
 }
