@@ -142,11 +142,21 @@ body {
 
 .navbar {
   background-color: #7dffc1 !important;
+  font-family: "Operation Napalm";
+}
+
+.offcanvas {
+  background-color: #7dffc1 !important;
+  font-family: "Operation Napalm";
 }
 
 .navbar-nav {
-  justify-content: space-between;
+  justify-content: space-around !important;
   width: 100%;
+}
+
+.nav-item {
+  border: darkorchid dashed 5px;
 }
 
 .navbar-toggler {
@@ -157,14 +167,28 @@ body {
   box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) deeppink;
 }
 
+.navbar-collapse.show {
+  margin-top: 10px;
+}
+
 .navbar-toggler-icon {
   color: purple;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 20, 147, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
-.change-color {
-  color: green;
+.fuckkamp-logo {
+  color: purple;
+
 }
+
+.fuckkamp-logo img {
+  height: 50px;
+}
+
+.offcanvas-body .nav-link {
+  padding-left: 20px;
+}
+
 .site-map {
   display: flex;
   justify-content: space-between;
@@ -172,7 +196,6 @@ body {
   width: 90%;
   margin: 0 5%;
   box-sizing: border-box;
-  border: deeppink solid 3px;
 }
 
 .site-map h3 {
@@ -185,7 +208,7 @@ body {
   color: #000000;
   padding: 10px 0;
 
-  width: 19%;
+  /*width: 19%;*/
 
   text-align: center;
   text-decoration: none;
